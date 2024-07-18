@@ -11,9 +11,6 @@
                         <v-text-field label="Enter your email" v-model="userData.email" clearable></v-text-field>
                     </v-col>
                     <v-col cols="12" md="6">
-                        <v-text-field label="Enter your mobile" v-model="userData.mobile" clearable></v-text-field>
-                    </v-col>
-                    <v-col cols="12" md="6">
                         <v-text-field label="Enter your password" v-model="userData.password" clearable></v-text-field>
                     </v-col>
                 </v-row>
@@ -32,7 +29,6 @@
 const userData = ref({
     "name":null,
     "email": null,
-    "mobile": null,
     "password": null
 });
 
